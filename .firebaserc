@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "creativesbrahma"
+  },
+  "targets": {
+    "creativesbrahma": {
+      "hosting": {
+        "bs4angmat": [
+          "creativesbrahma"
+        ]
+      }
+    }
+  }
+}

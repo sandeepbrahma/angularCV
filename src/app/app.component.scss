@@ -1,0 +1,183 @@
+.small_nav {
+  display: block;
+}
+
+
+._router {
+  flex: auto;
+}
+
+// HEADER
+._nav {
+  border-bottom: 1px solid #424242;
+
+}
+
+._links {
+  margin: 0.7rem;
+}
+._home {
+  width: 7rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #2e2d2d;
+  border-radius: 30px;
+  color: rgb(69, 28, 82);
+  // margin: 0.5rem 0.5rem;
+}
+
+._home_c {
+  min-width: 22rem;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid #2e2d2d;
+  color: rgb(69, 28, 82);
+  border-radius: 30px;
+  // margin: 0.5rem 0.5rem;
+}
+
+._profile {
+  width: 7rem;
+  text-align: center;
+
+  text-decoration: none;
+  // padding: .2rem;
+  border: 1px solid #2e2d2d;
+  color: rgb(69, 28, 82);
+
+  border-radius: 30px;
+  // margin: 0.5rem 0.5rem;
+}
+._profile_c {
+  min-width: 22rem;
+  text-align: center;
+  color: rgb(69, 28, 82);
+
+  text-decoration: none;
+  // padding: .2rem;
+  border: 1px solid #2e2d2d;
+  border-radius: 30px;
+  // margin: 0.5rem 0.5rem;
+}
+
+._contact {
+  width: 7rem;
+  text-align: center;
+  color: rgb(69, 28, 82);
+
+  text-decoration: none;
+  // padding: .2rem;
+  border: 1px solid #2e2d2d;
+  border-radius: 30px;
+  // margin: 0.5rem 0.5rem;
+}
+._contact_c {
+  min-width: 22rem;
+  text-align: center;
+  color: rgb(69, 28, 82);
+
+  text-decoration: none;
+  // padding: .2rem;
+  border: 1px solid #2e2d2d;
+  border-radius: 30px;
+  // margin: 0.5rem 0.5rem;
+}
+._home_mob {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  // padding: 0.5rem;
+  // border: 1.5px solid black;
+  color: rgb(69, 28, 82);
+
+  border-radius: 15px;
+  // margin: 0.5rem 0.5rem;
+}
+
+._profile_mob {
+  width: 100%;
+  text-align: center;
+
+  text-decoration: none;
+  // padding: .2rem;
+  // border: 1.5px solid black;
+  border-radius: 15px;
+  // margin: 0.5rem 0.5rem;
+}
+
+._contact_mob {
+  width: 100%;
+  text-align: center;
+
+  text-decoration: none;
+  // padding: .2rem;
+  // border: 1.5px solid black;
+  border-radius: 15px;
+  // margin: 0.5rem 0.5rem;
+}
+
+.devAvatar {
+  margin-top: 1rem;
+  max-height: 25rem;
+  max-width: 20rem;
+  margin-left: -50px;
+  // border: 1px solid green;
+  // text-align: center;
+  // margin-right: 13px;;
+  // padding: 2rem;
+  // background-color: rgb(99, 20, 173);
+}
+
+.whenClicked {
+  color: white !important;
+  background-color: #424242;
+  transition-duration: 0.75s;
+  // transition: ease-out;
+}
+.whenOutOfClick {
+  background-color: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 800px) {
+  .sometext {
+    text-align: center;
+    // justify-content: center;
+
+    // align-items: center;
+    // align-content: center;
+  }
+}
+
+@media (max-width: 990px) and (min-width: 766px) {
+  .smallsize {
+    margin-top: 1rem;
+    max-height: 25rem;
+    max-width: 16rem;
+  }
+}
+​ .somemedia {
+  text-align: center;
+}
+
+.icon_linkedin {
+  color: rgb(81, 64, 156);
+}
+// SVG
+
+#nodesvg:hover {
+  cursor: pointer;
+}
+
+
+
+.footer {
+  margin-top: auto;
+}
+
+.footr_div {
+  padding: 1rem;
+}
+
